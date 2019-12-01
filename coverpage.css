@@ -1,0 +1,152 @@
+*
+{
+
+
+	margin: 0%;
+	padding: 0%;
+}
+
+.pagewrapper{
+
+width: 100%;
+
+height :800px;
+
+}
+
+html, body{
+	position: fixed;
+    width: 100%;
+    height: 100%
+}
+.first
+{	 
+
+    background-image: url("coverimage.jpg");
+	background-size: cover;
+    background-position: center;
+    background-repeat:repeat;
+    background-attachment: fixed;
+    height: 800px;
+   
+}
+.main-navigation{
+	position:fixed;
+	width: 800px;
+	float: right;
+	right:30px;
+	left:650px;
+}
+.main-navigation li{
+	width: 120px;
+	float: right;
+	margin: 10px auto;
+	text-align: center;
+	list-style: none;
+}
+
+ .main-navigation li a{
+	text-decoration: none; 
+	color: #A52A2A;
+	font-family:American Typewriter, serif;
+}
+
+
+ .main-navigation li:hover{
+	background: #FFFAF0;
+
+}
+.icon-bar {
+  position: fixed;
+  top: 17%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.title {
+	color:#E9967A;
+	font-family: Brush Script MT, cursive;
+	font-size: 70px;
+	text-align: center;
+	
+}
+.title{
+	position: relative;
+	top:0px;
+	left: 130px;
+	width: 400px;
+	margin-right: 0px;
+	margin-left: 0px;
+
+}
+ .about_us{
+	background-image: url("ortakoy.jpg");
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 800px;
+
+}
+ .about_us_title{
+	font-family: Brush Script MT, cursive;;
+	color:black;	
+	font-size: 70px;
+	text-align: center;
+    float: left;
+    margin-left: 0;
+  
+}
+.opis{
+	float:right;
+	font-family: Stencil Std, fantasy;
+	color:black;	
+	font-size: 20px;
+	text-align: center;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+@media screen and(max-width:960px){
+   body{
+      display:none;
+   }
+}
